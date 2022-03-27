@@ -1,3 +1,18 @@
+NEXTJS-SSG-BLOGS we have used NextJs Static Side Generation(getStaticSideProps, getStaticpath).
+
+package.json:
+  - "export": "next build && next export"
+
+next.config.js:
+  - const nextConfig = {
+    reactStrictMode: true,
+    trailingSlash: true // means for each page it will move to seperate folder and create index.js so we can load any page
+  }
+
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
