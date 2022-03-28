@@ -1,4 +1,4 @@
-NEXTJS-SSG-BLOGS we have used NextJs Static Side Generation(getStaticSideProps, getStaticpath).
+NEXTJS-SSG-BLOGS we have used NextJs Static Side Generation(getStaticSideProps, getStaticpath), PUSH/GET request from NextJs API.
 
 package.json:
   - "export": "next build && next export"
